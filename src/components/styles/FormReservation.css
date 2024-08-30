@@ -1,0 +1,16 @@
+.form_reservation_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: start;
+
+}
+.form_reservation_btn {
+    width: 10em;
+    border-radius: 1em;
+    background-color: rgb(241, 100, 100);
+    color: white;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

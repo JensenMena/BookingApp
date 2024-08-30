@@ -1,0 +1,95 @@
+
+.filterPrice_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.filterPrice_form_c {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+  
+    
+}
+.filterPrice_title {
+ font-weight: 300;   
+ 
+}
+.filterPrice_formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.3em;
+   
+}
+.filterPrice_label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 0.3em;
+}
+
+.filterPrice_from_title {
+    margin-left: 0.8em;
+    font-size: 0.85em;
+    font-weight: 200;
+}
+.filterPrice_input {
+    width: 100%;
+    height: 1.8em;
+    /* border: solid #5554; */
+    border-width: 0.01mm;
+}
+.filterPrice_btn {
+    width: 100%;
+    background-color: rgb(237, 43, 43);
+    height: 2em;
+    color: white;
+    font-weight: 300;
+    transition: transform 300ms ease;
+    
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .filterPrice_container {
+        align-items: center;
+       
+    }
+    
+    .filterPrice_form_c {
+        width: 80%;
+    }
+    .filterPrice_title {
+     font-weight: 300;   
+     
+    }
+    .filterPrice_formulario {
+        gap: 0.5em;
+       
+    }
+    .filterPrice_label {
+        gap: 0.1em;
+    }
+    
+
+}

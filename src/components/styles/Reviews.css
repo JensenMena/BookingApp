@@ -1,0 +1,31 @@
+.comments_container {
+    width: 18em;  
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+}
+.comments_container_comments {
+    width: 100%;
+    background-color: rgb(219, 216, 216);
+    overflow: scroll;
+    border-radius: 1em;
+    
+   
+}
+.comments_ul {
+    width: 100%;
+}
+
+.comments_li {
+    font-size: 0.8em;
+    line-height: 0.5em;
+}
+.comment_name {
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.comments_comment {
+    line-height: 1.3;
+    
+}

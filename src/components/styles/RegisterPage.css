@@ -1,0 +1,82 @@
+.register_container {
+    width: 100%;
+    margin-top: 8em;
+}
+.register_form {
+   
+    width:98%;
+    max-width: 27em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+.register_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 0.8em 0.8em 0em 0em;
+    height: 3em;
+    border: solid #8884;
+    color: red;
+    font-size: 1.8em;
+}
+.register_div {
+    width: 100%;
+    border: solid #8884;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 0em 0em 0.8em 0.8em;
+}
+   
+}
+.register_label {
+    width: 90%;
+    margin-top: 1em;
+    border-radius: 0.1em;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    
+   
+}
+.register_name {
+    margin-left: 0.7em;
+}
+.register_input {
+    height: 2em; 
+    border: solid #8884;
+}
+.register_select {
+    height: 2.5em;
+    border: solid #8884;
+    
+}
+.register_option {
+    background-color: blanchedalmond;
+    margin-left: 1.5em;
+}
+.register_btn {
+    margin: 2em;
+    width: 90%;
+    height: 2.5em;
+    background-color: red;
+    color: white;
+    transition: transform 100ms ease;
+    
+    &:hover {
+        transform: scale(1.08);
+
+    }
+}

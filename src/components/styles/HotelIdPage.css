@@ -1,0 +1,113 @@
+.hpage_container {
+    width: 100%;
+     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    align-content: center;
+    margin-top: 8em;
+}
+.hpage_title {
+    text-align: center;
+
+}
+.hpag_rating {
+    display: flex;
+}
+.hpage_img_map_container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+     
+    
+}
+
+.hpage_div_map{
+    width: 100%;
+   
+}
+.hpage_information {
+    width: 96%;
+}
+.hpage_city {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.hpage_div_address {
+    display: flex;
+    margin-top: 0.3em;
+    
+}
+.hpage_addressl {
+    font-size: 0.9em;
+    color: #2229;
+    font-weight: 300;
+  
+}
+.hpage_description {
+    font-size: 0.9em;
+    color: #2229;
+    font-weight: 300;
+    line-height: 1.5;
+    
+}
+.hpage_otherHotels {
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+  
+
+}
+
+.oh_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.oh_title {
+    text-align: start;
+}
+.oh_title_city {
+    color: red;
+}
+.oh_cards {
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+
+
+@media screen and (max-width: 740px) {
+    .hpage_container {
+        width: 100%;
+    }
+
+    .hpage_img_map_container {
+    width: 90%;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    }
+    .hpage_div_map{
+        width: 80%;
+       
+    }
+}

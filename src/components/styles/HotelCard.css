@@ -1,0 +1,66 @@
+.hcard_article {
+    width: 100%;
+    max-width: 16em;
+    border-radius: 1em;
+    border: solid rgba(115, 113, 113, 0.067);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    margin-top: 2.5em;
+    overflow: hidden;
+    box-shadow: 1em 1em 1.1em 0em rgba(0, 0, 0, 0.3);
+    
+    transition: transform 100ms ease;
+    
+    &:hover {
+        transform: scale(1.03);
+
+    }
+}
+.hcard_header {
+    width: 100%;
+ }
+.hicard_img {   
+    width: 100%;
+}
+.hcard_section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.hcard_city {
+    position: relative;
+    bottom: 0.7em;
+}
+.hcard_price {
+    position: relative;
+    bottom: 0.8em;
+}
+.hcard_footer {
+    position: relative;
+    bottom: 1.8em;
+    
+}
+.hcard_button {
+    height: 2.5em;
+    width: 8em;
+    border-radius: 1em;
+    background-color: rgb(190, 82, 82);
+    color: white;
+    transition: transform 100ms ease;
+    
+    &:hover {
+        transform: scale(1.03);
+        background-color: red;
+
+    }
+    
+}

@@ -1,0 +1,48 @@
+.filterCity_container {
+    width: 55%;
+     color: black;
+}
+.filterCity_title {
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1.8em;
+}
+.filterCity_ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    font-weight: 200;
+    font-size: 0.84em;
+    color: black;
+}
+.filterCity_li {
+    /* transition: transform 100ms ease; */
+    padding-left: 1em;
+    color: black;
+    cursor: pointer;
+    
+    &:hover {
+        
+        background-color: rgb(248, 98, 98);
+        height: 2em;
+        color: white;
+        display: flex;
+        align-items: center;
+        
+
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .filterCity_container {
+        width: 100%;
+         color: rgb(206, 16, 16);
+
+    }
+
+.filterCity_ul {
+    gap: -0em;
+}
+
+}
